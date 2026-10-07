@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.log
+gemini.key
+*.key
+weakness_discovery/ledger_*.json
+weakness_discovery/feature_lib_*.py
+weakness_discovery/report_*.md
+weakness_discovery/weakness_table_*.md
+weakness_discovery/prompt_*.md
