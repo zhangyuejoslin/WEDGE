@@ -1,6 +1,7 @@
 # From Failures to Learnable Worlds: Policy-Conditioned Environment Generation for Navigation Agents
 
 Yue Zhang, Han Lin, Zun Wang, Yidong Huang, Zaid Khan, Mohit Bansal
+
 UNC Chapel Hill
 
 ## Layout
