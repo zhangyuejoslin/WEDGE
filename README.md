@@ -3,10 +3,6 @@
 Yue Zhang, Han Lin, Zun Wang, Yidong Huang, Zaid Khan, Mohit Bansal
 UNC Chapel Hill
 
-Code and data for the paper: the LLM-assisted weakness discovery loop of
-**WEDGE** (Weakness-guided Environment Design, Generation, and Evaluation) and
-the episode corpora it was run on for the three agents in the paper.
-
 ## Layout
 
 ```
