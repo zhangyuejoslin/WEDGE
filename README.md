@@ -4,26 +4,6 @@ Code and data for the paper *WEDGE* (arXiv, 2026): the **LLM-assisted weakness
 discovery** loop and the episode corpora it was run on for the three agents in the
 paper.
 
-## What the discovery loop does
-
-Given a corpus of evaluated episodes (success / failure plus layout and
-shortest-path descriptors), the loop asks an LLM to write Python feature
-functions that predict failure, then keeps only those that survive four gates:
-
-| gate | rule |
-|---|---|
-| coverage | computes on at least 95% of episodes, not constant |
-| redundancy | Spearman rank correlation below 0.85 against every feature already in the library |
-| predictive | on a 70/30 split, bottom vs. top tertile success-rate gap of at least 10 pp with p < 0.05 on train, and at least 5 pp in the same direction on holdout |
-| incremental | 5-fold logistic regression AUC improves by at least 0.01 when the feature is added to the library |
-
-Rejected candidates are fed back into the next prompt with their reasons.
-The loop stops after a round that accepts nothing. Candidate code runs in a
-restricted sandbox (`math` and a few builtins, hard timeouts). Rollout
-statistics are shown to the LLM as context but are stripped from the record
-before features are evaluated, so a feature can only use properties that are
-controllable at generation time.
-
 ## Layout
 
 ```
