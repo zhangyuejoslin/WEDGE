@@ -1,6 +1,6 @@
-# WEDGE: Weakness-Driven Environment Generation for Embodied Navigation Agents
+# WEDGE: Weakness-guided Environment Design, Generation, and Evaluation
 
-Code and data for the paper *WEDGE* (arXiv, 2026): the **LLM-assisted weakness
+Code and data for *From Failures to Learnable Worlds: Policy-Conditioned Environment Generation for Navigation Agents* (arXiv, 2026): the **LLM-assisted weakness
 discovery** loop and the episode corpora it was run on for the three agents in the
 paper.
 
@@ -58,8 +58,8 @@ python compare_to_baseline.py --episodes ../data/uninavid_pretrained_655.json \
 
 ```bibtex
 @article{zhang2026wedge,
-  title   = {WEDGE: Weakness-Driven Environment Generation for Embodied Navigation Agents},
-  author  = {Zhang, Yue and others},
+  title   = {From Failures to Learnable Worlds: Policy-Conditioned Environment Generation for Navigation Agents},
+  author  = {Zhang, Yue and Lin, Han and Wang, Zun and Huang, Yidong and Khan, Zaid and Bansal, Mohit},
   journal = {arXiv preprint},
   year    = {2026}
 }
