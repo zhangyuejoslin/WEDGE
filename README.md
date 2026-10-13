@@ -54,14 +54,6 @@ python compare_to_baseline.py --episodes ../data/uninavid_pretrained_655.json \
     --ledger ../runs/demo/ledger_demo.json
 ```
 
-Each run writes `ledger_<tag>.json` (every candidate with its gate scores and
-rejection reason), `feature_lib_<tag>.py` (accepted features, importable),
-`weakness_table_<tag>.md` (tertile success rates per feature) and
-`report_<tag>.md`.
-
-Notes on reproducibility: the LLM is sampled at temperature 0.8, so a rerun
-proposes different candidates; the gates are deterministic (fixed seeds).
-
 ## Citation
 
 ```bibtex
