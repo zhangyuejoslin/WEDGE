@@ -4,6 +4,8 @@ Yue Zhang, Han Lin, Zun Wang, Yidong Huang, Zaid Khan, Mohit Bansal
 
 UNC Chapel Hill
 
+[Paper (arXiv:2610.19420)](https://arxiv.org/abs/2610.19420) · [Project page](https://zhangyuejoslin.github.io/WEDGE/)
+
 ## Layout
 
 ```
@@ -60,7 +62,8 @@ python compare_to_baseline.py --episodes ../data/uninavid_pretrained_655.json \
 @article{zhang2026wedge,
   title   = {From Failures to Learnable Worlds: Policy-Conditioned Environment Generation for Navigation Agents},
   author  = {Zhang, Yue and Lin, Han and Wang, Zun and Huang, Yidong and Khan, Zaid and Bansal, Mohit},
-  journal = {arXiv preprint},
-  year    = {2026}
+  journal = {arXiv preprint arXiv:2610.19420},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2610.19420}
 }
 ```
